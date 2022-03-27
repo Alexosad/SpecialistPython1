@@ -5,3 +5,13 @@
 # Для всех остальных случаев не выводить ничего.
 
 # TODO: your code here
+
+number = float(input("n: ")) 
+if number % 3 == 0:
+	print("Foo")
+	if number % 5 == 0:
+		print("Bar")
+		if number % 3 == 0 and number % 5 == 0:
+			print ("Foobar")
+else:
+	print("")
